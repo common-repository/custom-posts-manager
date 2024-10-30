@@ -1,0 +1,91 @@
+#cpmanager-info p {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+#cpmanager-info ul.points {
+    list-style: none;
+    padding-left: 0;
+}
+
+#cpmanager-info ul.points li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#cpmanager-info ul.points li::before {
+    content: "\25CF";
+    color: #f07a3d;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 23px;
+    margin-right: 15px;
+    top: 0;
+}
+
+.cpmanager-notice {
+    background: #fff;
+    border: 1px solid #ee6d3c;
+    color: #608299;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    margin: 20px;
+}
+
+.cpmanager-notice h1{
+    margin: 0;
+}
+
+.cpmanager-notice-container {
+    display: flex;
+    align-items: center; /* Wyrównanie logo i treści w pionie */
+}
+
+.cpmanager-notice-logo {
+    margin-right: 20px; /* Odstęp między logo a treścią */
+}
+
+.cpmanager-notice-content {
+    flex: 1; /* Zajmuje pozostałą przestrzeń */
+}
+
+.cpmanager-notice-content h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.cpmanager-notice-content p {
+    margin: 0;
+    color: #000;
+    margin-top: 10px;
+}
+
+.cpmanager-notice a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px !important;
+    border-radius: 4px !important;
+    line-height: 1 !important;
+    min-height: auto !important;
+}
+
+.cpmanager-notice a.button-primary {
+    background: #28c2f3 !important;
+    border: 0 !important;
+}
+
+.cpmanager-notice a.button-secondary {
+    background: #ee6d3c !important;
+    margin-left: 10px;
+    color: #fff !important;
+    border: 0 !important;
+}
+
+.notice-dismiss {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

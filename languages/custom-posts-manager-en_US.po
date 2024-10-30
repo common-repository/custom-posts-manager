@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Post Manager - Duplicate or Clone Posts, Pages, "
+"and Custom Post Types\n"
+"POT-Creation-Date: 2024-10-09 20:34+0100\n"
+"PO-Revision-Date: 2024-10-09 20:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/cpmanager-settings.php:4 custom-posts-manager.php:212
+msgid "Nie masz wystarczających uprawnień, aby uzyskać dostęp do tej strony."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: admin/cpmanager-settings.php:18
+msgid "Ustawienia zostały zapisane."
+msgstr "The settings have been saved."
+
+#: admin/cpmanager-settings.php:23
+msgid "Ustawienia CP Manager"
+msgstr "CP Manager Settings"
+
+#: admin/cpmanager-settings.php:26
+msgid "Ustawienia klonowania wpisów"
+msgstr "Clone Post Settings"
+
+#: admin/cpmanager-settings.php:30
+msgid "Włącz klonowanie wpisów"
+msgstr "Enable cloning of entries"
+
+#: admin/cpmanager-settings.php:34
+msgid "Zezwalaj na klonowanie wpisów"
+msgstr "Allow cloning of entries"
+
+#: admin/cpmanager-settings.php:42
+msgid "Zapisz ustawienia"
+msgstr "Save settings"
+
+#: custom-posts-manager.php:36 custom-posts-manager.php:192
+#: custom-posts-manager.php:193
+msgid "Ustawienia"
+msgstr "Setting"
+
+#: custom-posts-manager.php:37
+msgid "Postaw mi kawę"
+msgstr "Buy me coffee"
+
+#: custom-posts-manager.php:98
+msgid "Czy na pewno chcesz powielić ten post?"
+msgstr "Are you sure you want to duplicate this post?"
+
+#: custom-posts-manager.php:99
+msgid "Post zostanie powielony..."
+msgstr "Post will be duplicated..."
+
+#: custom-posts-manager.php:117
+msgid "Błąd bezpieczeństwa: nieprawidłowy nonce."
+msgstr "Security error: invalid nonce."
+
+#: custom-posts-manager.php:126
+msgid "Nie znaleziono wpisu."
+msgstr "Post not found."
+
+#: custom-posts-manager.php:173
+msgid "Powiel ten post"
+msgstr "Duplicate this post"
+
+#: custom-posts-manager.php:173
+msgid "Powiel"
+msgstr "Duplicate"
+
+#: custom-posts-manager.php:181 custom-posts-manager.php:182
+msgid "CP Manager"
+msgstr "CP Manager"
+
+#: custom-posts-manager.php:201
+msgid "Witaj w CP Manager"
+msgstr "Welcome to CP Manager"
+
+#: custom-posts-manager.php:206
+msgid "Plik informacji nie został znaleziony."
+msgstr "Information file not found."
+
+#: custom-posts-manager.php:218
+msgid "Błąd: Plik ustawień nie istnieje."
+msgstr "Error: Settings file does not exist."
+
+#: includes/class-cpmanager.php:15
+msgid ""
+"Cześć! Super, że korzystasz z Custom Posts Manager już od kilku dni - mamy "
+"nadzieję, że Ci się podoba! Jeśli tak, rozważ ocenienie wtyczki. Będzie to "
+"dla nas bardzo ważne. Trzymaj się!"
+msgstr ""
+"Hey there! It's great that you've been using Custom Posts Manager for a few "
+"days now - we hope you like it! If so, please consider rating the plugin. It "
+"would be very important to us. Keep up the good work!"
+
+#: includes/class-cpmanager.php:16
+msgid "Oceń wtyczkę"
+msgstr "Rate this plugin"
+
+#: includes/class-cpmanager.php:17
+msgid "Przypomnij mi później"
+msgstr "Przypomnij mi później"
+
+#: includes/class-cpmanager.php:18
+msgid "Nie pokazuj więcej"
+msgstr "Don't show anymore"
+
+#: includes/cpmanager-info.php:8
+msgid ""
+"Custom Posts Manager to wtyczka, która oferuje funkcję klonowania wpisów, "
+"stron oraz niestandardowych typów postów, umożliwiając szybkie tworzenie "
+"kopii zawartości jednym kliknięciem."
+msgstr ""
+"Custom Posts Manager is a plugin that offers cloning functionality for "
+"posts, pages, and custom post types, allowing you to quickly create copies "
+"of your content with one click."
+
+#: includes/cpmanager-info.php:10
+msgid "Najważniejsze funkcje klonowania:"
+msgstr "Key cloning features:"
+
+#: includes/cpmanager-info.php:12
+msgid ""
+"Klonowanie dowolnego wpisu, strony lub niestandardowego typu postu jednym "
+"kliknięciem."
+msgstr "Clone any post, page, or custom post type with one click."
+
+#: includes/cpmanager-info.php:13
+msgid ""
+"Kopia zawiera wszystkie pola niestandardowe, kategorie oraz tagi przypisane "
+"do oryginalnego wpisu."
+msgstr ""
+"The copy includes all custom fields, categories, and tags assigned to the "
+"original post."
+
+#: includes/cpmanager-info.php:14
+msgid ""
+"Możliwość szybkiego tworzenia szkiców lub roboczych kopii zawartości do "
+"dalszej edycji."
+msgstr ""
+"The ability to quickly create sketches or working copies of content for "
+"further editing."
+
+#: includes/cpmanager-info.php:15
+msgid "Opcja włączania/wyłączania funkcji klonowania w ustawieniach wtyczki."
+msgstr "Option to enable/disable cloning feature in plugin settings."
+
+#: includes/cpmanager-info.php:18
+msgid ""
+"Dzięki tej funkcji możesz szybko tworzyć i edytować zawartość, "
+"przyspieszając proces zarządzania treścią na swojej stronie WordPress."
+msgstr ""
+"With this feature, you can quickly create and edit content, speeding up the "
+"content management process on your WordPress site."
+
+#: includes/cpmanager-notice.php:13
+msgid "Custom Posts Manager"
+msgstr "Custom Posts Manager"
+
+#: includes/cpmanager-notice.php:14
+msgid ""
+"Dziękujemy za zainstalowanie wtyczki Custom Posts Manager. Ta wtyczka "
+"umożliwia klonowanie wpisów, stron oraz niestandardowych typów postów jednym "
+"kliknięciem. Aby rozpocząć korzystanie z funkcji klonowania, włącz ją w "
+"ustawieniach wtyczki."
+msgstr ""
+"Thanks for installing Custom Posts Manager. This plugin allows you to clone "
+"posts, pages, and custom post types with a single click. To start using the "
+"cloning feature, enable it in the plugin settings."
+
+#: includes/cpmanager-notice.php:17
+msgid "Włącz klonowanie teraz"
+msgstr "Enable cloning now"
+
+#: includes/cpmanager-notice.php:20
+msgid "Wybierz wersję PRO"
+msgstr "Get PRO version"
+
+#: includes/cpmanager-notice.php:25
+msgid "Zamknij to powiadomienie."
+msgstr "Close this notification."
